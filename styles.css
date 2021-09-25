@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+:root {
+  --yellow: rgb(46, 46, 63);
+  --gray: rgb(209, 208, 206);
+}
+
+body{
+    margin: 0;
+    font-family: 'Gemunu Libre', sans-serif;
+    background-image:  url("/Gungan.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    padding: 2.5rem;
+    margin: 0;
+    text-align: center;
+    font-size: 3rem;
+  
+    
+}
+
+#input,
+#renderInput {
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 1rem;
+  width: 75%;
+  height: 15vh;
+  font-size: 1.3em;
+  background-color: var(--gray);
+  border: 1px solid var(--gray);
+  border-radius: 3px;
+
+}
+
+#renderInput{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+textarea{
+    text-align: center;
+}
+
+#translate {
+  margin: auto;
+  display: block;
+  padding: 0.5rem 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  border-radius: 3px;
+  border-style: solid;
+  font-size: 1.2em;
+  background-color: black;
+  color: white;
+}
+
+.output-text {
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+}
+
